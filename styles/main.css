@@ -1,0 +1,85 @@
+@charset "UTF-8";
+header {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), transparent);
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding: 0 15px;
+  position: fixed; /* position 주면 margin: 0 auto; 안 먹힘 */
+  z-index: 9999;
+}
+header h1 {
+  width: 150px;
+}
+header h1 a img {
+  width: 100%;
+}
+header .right {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header .right .app {
+  font-family: "Jua", sans-serif;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 15px 25px;
+  color: #fff;
+  margin-right: 15px;
+}
+header .right .all_nav span {
+  display: block;
+  background: #fff;
+  width: 30px;
+  height: 5px;
+  border-radius: 15px;
+}
+header .right .all_nav span:nth-child(2) {
+  margin: 5px 0;
+}
+
+main .visual .contents {
+  position: relative;
+  left: 230px;
+  top: 230px;
+  z-index: 999;
+}
+main .visual video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+main .visual .page_down src {
+  position: relative;
+  left: 230px;
+  top: 300px;
+  z-index: 999;
+}
+
+/* .all_nav {
+    display:flex;
+    flex-flow: column wrap;
+    background: yellow;
+    span {margin-top: 3px;}
+    span:nth-child(1) {
+        width: 30px; height:5px;
+        border-radius: 25px;
+        background: #fff;
+        margin:0;
+}
+    span:nth-child(2) {
+        width: 30px; height:5px;
+        border-radius: 25px;
+        background: #fff;
+    }
+    span:nth-child(3) {
+        width: 30px; height:5px;
+        border-radius: 25px;
+        background: #fff;
+    }
+} *//*# sourceMappingURL=main.css.map */
