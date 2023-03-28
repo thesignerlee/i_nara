@@ -149,6 +149,11 @@ main .event_wrap .slide_wrap .slide_container .slide h2 {
 main .event_wrap .slide_wrap .slide_container .slide p {
   font-weight: 600;
 }
+main .event_wrap .slide_wrap .slide_container .slide a {
+  background: #000;
+  margin-bottom: 200px;
+}
+
 /* .all_nav {
     display:flex;
     flex-flow: column wrap;
